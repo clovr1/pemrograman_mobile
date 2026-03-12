@@ -55,3 +55,9 @@ Menjamin variabel tidak "kosong" (null) kecuali diizinkan secara eksplisit.
 Late Variable (late)
 Menunda pengisian nilai variabel, tapi berjanji akan mengisinya sebelum digunakan.
 
+Kodenya
+
+Null safety menggunakan tanda tanya (?) untuk memberi tahu Dart bahwa variabel tersebut boleh kosong (null).
+
+
+![Hasil](NullSafety.png)
