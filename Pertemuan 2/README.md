@@ -57,7 +57,19 @@ Menunda pengisian nilai variabel, tapi berjanji akan mengisinya sebelum digunaka
 
 Kodenya
 
+# Null Safety
 Null safety menggunakan tanda tanya (?) untuk memberi tahu Dart bahwa variabel tersebut boleh kosong (null).
 
 
 ![Hasil](NullSafety.png)
+
+# Late Variable
+Late variable menggunakan kata kunci late untuk menandai variabel yang tidak boleh kosong, tapi nilainya baru akan diisi nanti (sebelum dipanggil).
+
+![Hasil](LateVariable.png)
+
+Perbedaan:
+
+* Null Safety (?): Digunakan jika kamu memang membolehkan data tersebut kosong sejak awal.
+
+* Late Variable (late): Digunakan jika data tersebut wajib ada, tapi kamu belum punya nilainya saat variabel pertama kali dibuat.
