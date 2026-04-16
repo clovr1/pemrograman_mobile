@@ -43,4 +43,11 @@ Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
 
 #### - Praktikum 2
 
+- Langkah 1
+
+Ketik atau salin kode program berikut ke dalam fungsi main().
+
+* Jika mencoba menjalankan kode ini program tidak akan berjalan dan akan memunculkan pesan Error. 
+
+![Hasil](error2.png)
 
